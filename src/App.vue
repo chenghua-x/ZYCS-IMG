@@ -4,9 +4,6 @@
       <h1>Chenghua's Picture</h1>
       <h2>致力于为开发者提供便捷、免费、稳定、快速的图床服务。</h2>
       <div class="desc">
-        <p>图片首次访问后缓存，"永久"有效，包括全球分布的 CDN，以确保尽可能快地提供图像.</p>
-        <p>项目使用无服务器服务搭建，托管在 <a-tag color="gray"><template #icon><icon-cloud /></template>Cloudflare Pages</a-tag> 上运行.
-        </p>
       </div>
     </header>
     <main>
