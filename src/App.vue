@@ -1,5 +1,5 @@
 <template>
-  <a-watermark class="page_main" content="骤雨重山图床" :alpha="0.1">
+  <a-watermark class="page_main" content="Chenghua's Picture" :alpha="0.1">
     <header>
       <h1>Chenghua's Picture</h1>
       <h2>致力于为开发者提供便捷、免费、稳定、快速的图床服务。</h2>
@@ -8,7 +8,7 @@
     </header>
     <main>
       <a-upload draggable :action="ACTION_API" multiple :show-link="false" :image-preview="true"
-        :show-remove-button="false" accept=".png,.jpg,.jpeg,.gif" :on-before-upload="checkImageSizeFn"
+        :show-remove-button="false" accept=".png,.jpg,.jpeg,.gif,.svg,.psd,.tiff,.webp" :on-before-upload="checkImageSizeFn"
         @success="scrollToBottom">
         <template #upload-item="item">
           <div class="vh-img-item" :key="item.fileItem.uid">
